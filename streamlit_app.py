@@ -75,10 +75,4 @@ if st.session_state.messages[-1]["role"] != "assistant":
             placeholder.markdown(full_response)
     message = {"role": "assistant", "content": full_response}
     st.session_state.messages.append(message)
-Import necessary libraries
-First, import the necessary libraries:
 
-streamlit - a low-code web framework used for creating the web frontend.
-replicate - an ML model hosting platform that allows interfacing with the model via an API call.
-os - the operating system module to load the API key into the environment variable.
-import streamli
