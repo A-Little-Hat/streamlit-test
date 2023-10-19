@@ -17,7 +17,7 @@ with st.sidebar:
             st.warning('Please enter your credentials!', icon='⚠️')
         else:
             st.success('Proceed to entering your prompt message!', icon='👉')
-    os.environ['REPLICATE_API_TOKEN'] = r8_MutQIcaTM1rcBKU15kpL4bOrnhfQ7f72v9sGD
+    os.environ['REPLICATE_API_TOKEN'] = "r8_MutQIcaTM1rcBKU15kpL4bOrnhfQ7f72v9sGD"
 
     st.subheader('Models and parameters')
     selected_model = st.sidebar.selectbox('Choose a Llama2 model', ['Llama2-7B', 'Llama2-13B'], key='selected_model')
